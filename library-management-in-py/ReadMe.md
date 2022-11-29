@@ -1,5 +1,6 @@
 ## Library Management in py
 
+<!--
 A library management system keeps track of the books present in the library. It is an important piece of software which is a must at schools and colleges. 
 
 
@@ -35,3 +36,4 @@ Below are the project files you will get once you fork and clone the Library pro
 
 
 ## Description of Tables
+-->
