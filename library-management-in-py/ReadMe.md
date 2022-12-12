@@ -52,13 +52,15 @@ create table books(bid varchar(20) primary key, title varchar(30), author varcha
 
 create table books_issued(bid varchar(20) primary key, issuedto varchar(30));
 ```
-- books
+- **books**
 
-(Img)
+![image (1)](https://user-images.githubusercontent.com/79866006/207016754-a8c38ce7-c732-4618-b688-b8c65e62bc23.png)
 
-- issued_books
 
-(Img)
+- **books_issued**
+
+![image (2)](https://user-images.githubusercontent.com/79866006/207016822-f44ea6c6-d670-4a0c-8d29-6b1e77ca15d0.png)
+
 
 
 ## Description of Project Codes
@@ -69,7 +71,22 @@ Let’s start the detailed discussion of each and every file of our library mana
 
 
 
+### Info
 
+- Make a `pull request` to countribute to this project
+- Make an `issue` if you're facing an issue
+- `Fork` this Project to receive more python projects 
+- Give a `star` if you like this Project 
+
+
+
+- **Note**
+
+Apart from this,
+
+you can now take a step forward to extend the project by making a history tab which keeps track of the previous books issued.
+
+Moreover, you can integrate a login system to authenticate a user before making changes to the database.
 
 
 
