@@ -1,21 +1,26 @@
 ## Library Management in py
 
-<!--
-A library management system keeps track of the books present in the library. It is an important piece of software which is a must at schools and colleges. 
+
+A library management system keeps track of the books present in the library.
+ It is an important piece of software which is a must at schools and colleges. 
 
 
 The library management system in python which we are going to build will look something like this :
 
+(img)
+
 
 ## Project Requirements
+
+Open your python compiler terminal :
 
 - tkinter – Please run below command to install tkinter
 
 `pip install tkinter`
-- pillow – Please run below command to install tkinter
+- pillow – Please run below command to install pillow
 
 `pip install pillow`
-- pymysql – Please run below command to install tkinter
+- pymysql – Please run below command to install pymysql
 
 `pip install pymysql`
 
@@ -23,7 +28,7 @@ The library management system in python which we are going to build will look so
 
 
 
-## Description of Project Codes
+## Description of Project files
 
 Below are the project files you will get once you fork and clone the Library project:
 
@@ -34,6 +39,38 @@ Below are the project files you will get once you fork and clone the Library pro
 - `IssueBook.py` – To Issue a book from library
 - `ReturnBook.py` – To Return a book to the library
 
+**NOTE:** Use your own Database name and password.
 
-## Description of Tables
--->
+
+## Description of Tables (Database)
+
+**Create Tables:**
+```
+ create database db;
+
+create table books(bid varchar(20) primary key, title varchar(30), author varchar(30), status varchar(30));
+
+create table books_issued(bid varchar(20) primary key, issuedto varchar(30));
+```
+- books
+
+(Img)
+
+- issued_books
+
+(Img)
+
+
+## Description of Project Codes
+
+Let’s start the detailed discussion of each and every file of our library management system python project:
+
+1. **main.py**
+
+
+
+
+
+
+
+
