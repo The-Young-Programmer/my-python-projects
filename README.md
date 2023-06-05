@@ -1,6 +1,6 @@
 # my-python-projects
 
-This contains some of my GUI py project
+This contains some of my Terminal and GUI py project
 
 - kindly give  a `Star` if you like this Project 
 - Make a `Pull request` to contribute to this project 
